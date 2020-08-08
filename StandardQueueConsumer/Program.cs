@@ -21,10 +21,14 @@ namespace StandardQueueConsumer
             {
                 var body = ea.Body.ToArray();
                 var payment = body.Deserialize<Payment>();
-                Console.WriteLine(@$"Received from {payment.Name} {payment.Amount}");
+                Console.WriteLine(@$"Received from {payment.Name} card: {payment.CardNumber} ${payment.Amount}");
             };
 
             _model.BasicConsume(queue: QueueName, autoAck: true, consumer: consumer);
+
+
+            Console.WriteLine(" Press [enter] to exit.");
+            Console.ReadLine();
 
         }
 
