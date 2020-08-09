@@ -9,13 +9,17 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StandardQueueProducer", "St
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StandardQueueConsumer", "StandardQueueConsumer\StandardQueueConsumer.csproj", "{9FEB05AA-2DA8-4159-B970-D42929AFED56}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WorkerQueueProducer", "WorkerQueueProducer\WorkerQueueProducer.csproj", "{A2BFF3B1-22CD-4FC5-8947-A595B282BCA3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WorkerQueueProducer", "WorkerQueueProducer\WorkerQueueProducer.csproj", "{A2BFF3B1-22CD-4FC5-8947-A595B282BCA3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WorkerQueueConsumer", "WorkerQueueConsumer\WorkerQueueConsumer.csproj", "{B2D83622-C339-4362-A99E-5E561246E61C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WorkerQueueConsumer", "WorkerQueueConsumer\WorkerQueueConsumer.csproj", "{B2D83622-C339-4362-A99E-5E561246E61C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PublishSubscribe.Publisher", "PublishSubscribe.Publisher\PublishSubscribe.Publisher.csproj", "{E4373F27-59F8-4FFD-B48D-CB2D6974FA4E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PublishSubscribe.Publisher", "PublishSubscribe.Publisher\PublishSubscribe.Publisher.csproj", "{E4373F27-59F8-4FFD-B48D-CB2D6974FA4E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PublishSubscribe.Subscriber", "PublishSubscribe.Subscriber\PublishSubscribe.Subscriber.csproj", "{B3E35B6B-BD92-4BA0-958B-EA9ED43F235A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PublishSubscribe.Subscriber", "PublishSubscribe.Subscriber\PublishSubscribe.Subscriber.csproj", "{B3E35B6B-BD92-4BA0-958B-EA9ED43F235A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DirectRouting.Publisher", "DirectRouting.Publisher\DirectRouting.Publisher.csproj", "{08E78AEF-5795-4512-A354-67AFC97D5A03}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DirectRouting.Subscriber", "DirectRouting.Subscriber\DirectRouting.Subscriber.csproj", "{9727CEA5-4C45-42C9-834E-A591F99D8DED}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -51,6 +55,14 @@ Global
 		{B3E35B6B-BD92-4BA0-958B-EA9ED43F235A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B3E35B6B-BD92-4BA0-958B-EA9ED43F235A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B3E35B6B-BD92-4BA0-958B-EA9ED43F235A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{08E78AEF-5795-4512-A354-67AFC97D5A03}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{08E78AEF-5795-4512-A354-67AFC97D5A03}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{08E78AEF-5795-4512-A354-67AFC97D5A03}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{08E78AEF-5795-4512-A354-67AFC97D5A03}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9727CEA5-4C45-42C9-834E-A591F99D8DED}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9727CEA5-4C45-42C9-834E-A591F99D8DED}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9727CEA5-4C45-42C9-834E-A591F99D8DED}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9727CEA5-4C45-42C9-834E-A591F99D8DED}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
